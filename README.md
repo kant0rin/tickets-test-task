@@ -1,19 +1,12 @@
-# todo-test-task
+# tickets-test-task
 
 ## Ссылка на хостинг - <a href='https://tickets-test-task.vercel.app/'>tickets-test-task</a> 
 
 ## Описание приложения
 
-Веб приложение выполненное в качестве тестового задания - <a href='https://docs.google.com/document/d/15QkApDkQqtzLSVW7Fpyluwj-BvUIHFXBjvvFCe77Aaw/edit'>ТЗ</a>. 
+Веб приложение выполненное в качестве тестового задания.
 
-В приложении доступна одна страница: ```/``` Отображает окно с полем для ввода, списком дел и кнопками управления
-
-- Добавление задачи осуществляется в поле ввода, после введения текста пользователь может нажать на кнопку добавления ```>``` или же путем нажатия кнопки ```Enter```
-- Для того, чтобы отметить дело выполненным - достаточно на него нажать
-- В блоке с кнопками управления отображается
-   - ***количество невыполненных дел***
-   - Возможность сменить отображение списка: ```All - все задачи``` , ```Active - невыполненные```, ```Completed - выполненные```
-   - Возможность стереть все задачи, которые были отмечены выполненными
+В приложении доступна одна страница: ```/``` Отображает список доступных билетов и фильтры
  
 > Используемый стек
 
@@ -26,10 +19,6 @@
     <td align="center" width="110" height="90">
         <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg" width="36" height="36" alt="typescript" />
       <br>typescript
-    </td>
-      <td align="center" width="110" height="90">
-        <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="36" height="36" alt="Redux" />
-      <br>Redux
     </td>
      <td align="center" width="110" height="90">
         <img src="https://brandeps.com/icon-download/S/Sass-icon-vector-04.svg" width="36" height="36" alt="Sass" />
@@ -44,8 +33,8 @@
       <br>Vite
     </td> 
     <td align="center" width="110" height="90"> 
-        <img src="https://brandeps.com/icon-download/N/Npm-icon-vector-05.svg" width="36" height="36" alt="npm" />
-      <br>npm
+        <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/yarn/yarn-original.svg" width="36" height="36" alt="yarn" />
+      <br>yarn
     </td>
   </tr> 
 </table>
@@ -70,22 +59,22 @@
 <p>Для установки проекта</p>
 
 ```bash
-npm i
+yarn add
 ```
 
 <p>Для запуска</p>
 
 ```bash
-npm run start
+yarn dev
 ```
 <p>Для сборки</p>
 
 ```bash
-npm run build
+yarn build
 ```
 
 <h2>Запуск тестов</h2>
 
 ```bash
-npm run test
+yarn test
 ```
